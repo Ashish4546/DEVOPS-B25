@@ -28,6 +28,13 @@ pipeline
 				sh 'mvn install'
 			}			
 		}
+		stage('Java Version Check Stage')
+		{
+			steps
+			{
+				sh 'java --version'
+			}			
+		}
 		stage('Test Stage')
 		{
 			steps
@@ -39,7 +46,7 @@ pipeline
 		{
 			steps
 			{
-				echo 'Successfully Build'
+				echo 'Successfully Build Thanks'
 			}			
 		}
 	
