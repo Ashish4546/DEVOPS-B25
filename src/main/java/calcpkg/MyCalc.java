@@ -4,9 +4,7 @@ public class MyCalc {
 	
 	public int sum (int a, int b) 
 	{
-		int c;
-		c=10+5;
-		return c;
+		return a*b;
 	}
 	
 	public int diff (int a, int b)
