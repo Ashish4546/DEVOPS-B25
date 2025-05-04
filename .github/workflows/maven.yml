@@ -26,7 +26,7 @@ jobs:
     - name: Build and push
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: ashu4546/gfgb25:tagname
+        image: ashu4546/gfgb25
         registry: docker.io
         username: ${{ secrets. DOCKER_USERNAME }}
         password: ${{ secrets. DOCKER_PASSWORD }}
